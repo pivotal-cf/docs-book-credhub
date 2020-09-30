@@ -1,0 +1,38 @@
+---
+book_repo: pivotal-cf/docs-book-om
+layout_repo: pivotal-cf/docs-layout-repo
+layout_repo_ref: master
+feedback_enabled: true
+
+broken_link_exclusions: iefix|arrowhead
+repo_link_enabled: true
+
+public_host: docs.pivotal.io
+
+elastic_search: true
+
+sections:
+
+- repository:
+    name: pivotal-cf/docs-credhub
+    ref: 'master'
+  directory: credhub
+  subnav_template: credhub.erb
+  product_info:
+    use_local_header: true
+    skip_versioning: true
+    changelog_href: https://docs.pivotal.io/ops-manager/2-10/release-notes.html
+    local_header_img: /images/cloud_rings.png
+    local_header_title: CredHub
+    search_placeholder: Search CredHub
+    url_prefix: credhub
+    local_header_links: []
+    local_header_version_list: []
+
+# cross-product resources
+
+- repository:
+    name: pivotal-cf/docs-partials
+    ref: 'master'
+  directory: pcf
+  no_docs: true
