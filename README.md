@@ -1,32 +1,29 @@
 # Ops Manager Documentation Book
 
-This repository contains metadata for the Ops Manager documentation. We publish the Ops Manager documentation at
-https://docs.pivotal.io/ops-manager/index.html.
+This repository contains metadata for the CredHub documentation. We publish the CredHub documentation at
+https://docs.pivotal.io/credhub/index.html.
 
 ## How To Contribute
 
-Please help us improve the accuracy and completeness of the Ops Manager documentation by contributing content, editing,
+Please help us improve the accuracy and completeness of the CredHub documentation by contributing content, editing,
 or expertise.
 
 A common way to contribute is to file a pull request through GitHub.
 
-Every topic in the Ops Manager documentation has a corresponding file in the
-[https://github.com/pivotal-cf/docs-ops-manager](https://github.com/pivotal-cf/docs-ops-manager) content repository in
-GitHub. To locate the source file for a topic, navigate to the topic on the Ops Manager documentation site and click
+Every topic in the CredHub documentation has a corresponding file in the
+[https://github.com/pivotal-cf/docs-credhub](https://github.com/pivotal-cf/docs-credhub) content repository in
+GitHub. To locate the source file for a topic, navigate to the topic on the CredHub documentation site and click
 "View the source for this page in GitHub" at the bottom of the topic.
 
 ## Versions and Branching
 
 | **Branch Name** | **Content** | **Location** |
 |-----------------|-------------|--------------|
-| `edge` | Ops Manager pre-release | https://docs-pcf-staging.cfapps.io/ops-manager/2-11/index.html |
-| `master` | Ops Manager v2.6 - v2.10  | https://docs.pivotal.io/ops-manager/2-10/index.html and others |
+| `master` | CredHub (all versions)  | https://docs.pivotal.io/credhub/ |
 
-**edge**: The `edge` branch is used to publish the pre-release v2.11 version of the site. Create pull requests on
-`edge` to contribute bug fixes or correct technical inaccuracies in the pre-release v2.11 documentation.
 
-**master**: The `master` branch is used to publish the live version of the site for v2.6, v2.7, v2.8, v2.9, and v2.10. Create
-pull requests on `master` to contribute or correct technical inaccuracies in the Ops Manager v2.6, v2.7, v2.8, v2.9 and v2.10
+**master**: The `master` branch is used to publish the live version of the site for all versions of CredHub. Create
+pull requests on `master` to contribute or correct technical inaccuracies in 
 documentation.
 
 ## How To Use Bookbinder To View Your Documentation
@@ -43,26 +40,25 @@ configuration and assets from [docs-layout-repo](https://github.com/pivotal-cf/d
 To use Bookbinder to view your documentation, perform the following steps:
 
 1. Clone this repository to the `~/workspace` directory on your local machine.
-1. Clone the [docs-ops-manager](https://github.com/pivotal-cf/docs-ops-manager) and
+1. Clone the [docs-credhub](https://github.com/pivotal-cf/docs-credhub) and
 [docs-layout-repo](https://github.com/pivotal-cf/docs-layout-repo) repositories to the `~/workspace` directory on your
 local machine.
-1. Navigate into the `docs-book-om` directory.
+1. Navigate into the `docs-book-credhub` directory.
 1. Run `bundle install` to install all of the necessary gems, including Bookbinder.
 1. Run `bundle exec bookbinder bind local` to build a Rack web-app of the book. After the bind has completed, navigate
-into the `final_app` directory and run `rackup`. Then navigate to `localhost:9292/ops-manager/index.html` in a
+into the `final_app` directory and run `rackup`. Then navigate to `localhost:9292/credhub/index.html` in a
 browser.
 
 ## Continuous Integration and Continuous Delivery
 
 We use Concourse pipelines to provide continuous integration and continuous delivery. Any change made to this repository
-or the [https://github.com/pivotal-cf/docs-ops-manager] content repository trigger a "bind" where the disparate parts of
-the Ops Manager documentation are assembled into a single web app. A successful bind triggers pushing the app to the
+or the [https://github.com/pivotal-cf/docs-credhub] content repository trigger a "bind" where the disparate parts of
+the CredHub documentation are assembled into a single web app. A successful bind triggers pushing the app to the
 staging site,
-[https://docs-pcf-staging.cfapps.io/ops-manager](http://docs-pcf-staging.cfapps.io/ops-manager). After
+[https://docs-pcf-staging.cfapps.io/credhub](http://docs-pcf-staging.cfapps.io/credhub). After
 review, the staging site is manually pushed to the production site,
-[https://docs.pivotal.io/ops-manager/](https://docs.pivotal.io/ops-manager/).
+[https://docs.pivotal.io/credhub/](https://docs.pivotal.io/credhub/).
 
 Concourse Pipelines:
 
-* **master**: https://concourse.run.pivotal.io/teams/cf-docs/pipelines/om
-* **edge**: https://concourse.run.pivotal.io/teams/cf-docs/pipelines/om?group=edge
+* **master**: https://concourse.run.pivotal.io/teams/cf-docs/pipelines/credhub
