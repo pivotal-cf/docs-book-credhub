@@ -117,7 +117,7 @@ template_variables:
   bosh_upload_stemcell: upload-stemcell #v1: upload stemcell
   # ---end-bosh-version-difference-variables---
   bosh_cli_link: For more information about using this tool, see [Advanced Troubleshooting with the BOSH CLI](https://docs.pivotal.io/platform/2-11/customizing/trouble-advanced.html).
-  bosh_credhub_setup: The BOSH Director and VMware Tanzu Application Service for VMs (TAS for VMs) tiles deploy CredHub instances as part of the installation process. For more information, see [Installing Ops Manager](../installing/).
+  bosh_credhub_setup: The BOSH Director and VMware Tanzu Application Service for VMs (TAS for VMs) tiles deploy CredHub instances as part of the installation process. For more information, see [Installing Ops Manager](https://docs.pivotal.io/ops-manager/2-10/install/index.html).
   blobstore_kb: For more information about the blobstore, see [How to use Elastic Runtime BLOB Storage Data](https://community.pivotal.io/s/article/How-to-use-Elastic-Runtime-BLOB-Storage-Data) in the Knowledge Base.
   capi_link: For more information, see the [CAPI documentation](https://v3-apidocs.cloudfoundry.org/version/3.4.0/index.html).
   cc_logging_default:
