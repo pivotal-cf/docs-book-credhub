@@ -1,5 +1,5 @@
 ---
-book_repo: pivotal-cf/docs-book-om
+book_repo: pivotal-cf/docs-book-credhub
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: master
 feedback_enabled: true
