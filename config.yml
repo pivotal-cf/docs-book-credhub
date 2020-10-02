@@ -14,7 +14,7 @@ elastic_search: true
 sections:
 
 - repository:
-    name: pivotal-cf/docs-credhub
+    name: cloudfoundry/docs-credhub
     ref: 'master'
   directory: credhub
   subnav_template: credhub.erb
