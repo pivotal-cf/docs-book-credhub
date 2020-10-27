@@ -26,7 +26,9 @@ sections:
     local_header_title: CredHub
     search_placeholder: Search CredHub
     url_prefix: credhub
-    local_header_links: []
+    local_header_links:
+      - <a href="https://network.pivotal.io/products/credhub-service-broker/">Download from Tanzu Network</a>
+      - <a href="https://community.pivotal.io/s/topic/0TO0P000000IKhwWAG/welcome">Knowledge Base</a>
     local_header_version_list: []
 
 # cross-product resources
