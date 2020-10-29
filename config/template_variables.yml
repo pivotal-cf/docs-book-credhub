@@ -202,14 +202,14 @@ template_variables:
   gsg_app_video_link: <p class="note">See the <a href="https://tanzu.vmware.com/tutorials/getting-started" target="_blank">Getting Started with Tanzu Application Service</a> to learn app deployment concepts.
   health_monitor_footnote: <a href="https://docs.pivotal.io/platform/monitoring/metrics.html#bosh-cf">Configuring a Monitoring System</a>
   http_routing: For more information, see [Securing Traffic into TAS for VMs](../adminguide/securing-traffic.html).
-  incompatible_ldap_saml: <p class='note'><strong>Note</strong>&#58; The procedures described here are not compatible with using SAML or LDAP for user identity management. To create and manage user accounts in a SAML- or LDAP-enabled TAS for VMs deployment, see <a href='../opsguide/external-user-management.html'>Adding Existing SAML or LDAP Users to a TAS for VMs Deployment</a>.</p>
+  incompatible_ldap_saml: <p class='note'><strong>Note</strong>&#58; The procedures described here are not compatible with using SAML or LDAP for user identity management. To create and manage user accounts in a SAML- or LDAP-enabled TAS for VMs deployment, see <a href='https://docs.pivotal.io/application-service/2-11/operating/external-user-management.html'>Adding Existing SAML or LDAP Users to a TAS for VMs Deployment</a>.</p>
   info_loc: In Ops Manager
   invite_members: images/pcf/invite-members.png
   ipsec_note: <li>Use the <a href="https://docs.pivotal.io/addon-ipsec/index.html">IPsec add-on</a> to encrypt IP data traffic within your deployment.</li>
   kb_link: <a href="https://support.pivotal.io/kb" target="_blank">Knowledge Base</a>
   keepalive: For more information, see [Gorouter Back End Keep-Alive Connections](../adminguide/routing-keepalive.html).
   keepalive_router: An operator can enable the feature by entering a non-zero value for the **Keep-alive connections for the Gorouter** field in the **Networking** pane of the TAS for VMs tile.
-  known_issues: <a href="https://docs.pivotal.io/ops-manager/2-10/release-notes.html#known-issues">Known Issues</a>
+  known_issues: <a href="https://docs.pivotal.io/ops-manager/2-11/release-notes.html#known-issues">Known Issues</a>
   lb_subnav: <li><a href="https://docs.pivotal.io/platform/2-11/customizing/custom-load-balancer.html" class="subnav">Using Your Own Load Balancer</a></li><p><li><a href="https://docs.pivotal.io/platform/2-11/customizing/elb-ssh-proxy.html">Creating a Proxy ELB for Diego SSH</a></li>
   lb_health_chk_healthy: Unhealthy Threshold
   lb_health_chk_unhealthy: Unhealthy Threshold
