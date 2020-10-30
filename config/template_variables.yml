@@ -296,7 +296,7 @@ template_variables:
   ssh_service_plan: 100mb
   ssl:
   ssl_term_vsphere: <li><a href="../opsguide/ssl-term.html" class="subnav">Configuring Ops Manager SSL Termination for vSphere Deployments</a></li>
-  ssl_tls_subnav: <li><a href="../opsguide/security_config.html">Providing a Certificate for Your TLS Termination Point</a></li>
+  ssl_tls_subnav: <li><a href="https://docs.pivotal.io/application-service/operating/security_config.html">Providing a Certificate for Your TLS Termination Point</a></li>
   sso_plan_enabled: have the Single Sign-On service broker installed on your Ops Manager deployment. You must create a plan, grant any plan admins, and specify any orgs this plan should be the authentication authority for. For help configuring plans, see [Manage Service Plans](../manage-service-plans.html).
   suspended_roles_table: "../console/pcf_suspended_roles_table"
   syslog_forwarding_ref: Syslog forwarding. See <a href="https://docs.pivotal.io/platform/devguide/services/log-management.html">Streaming App Logs to Log Management Services</a>.
@@ -314,9 +314,9 @@ template_variables:
   understanding_asg_individual_link: <a href="https://docs.pivotal.io/platform/concepts/asg.html#asg-individual">App Security Groups</a>
   v3_cli_versions: The experimental commands described in this topic require Pivotal Cloud Foundry (PCF) v1.12 or later and the cf CLI v6.30.0 or later.
   warden_garden: <p class="note"><strong>Note</strong><span>:</span> Pivotal Cloud Foundry (PCF) v1.6 and later no longer use Warden. The platform-independent Garden subsystem replaces its function. This topic is intended for users who are running older versions of PCF.</p>
-  ssl_gorouter_link: <a href="../opsguide/security_config.html#gorouter_term">Terminating SSL/TLS at the Gorouter only</a>
-  ssl_lb_gorouter_link: <a href="../opsguide/security_config.html#gorouter_lb">Terminating SSL/TLS at the Load Balancer and the Gorouter</a>
-  ssl_lb_link: <a href="../opsguide/security_config.html#unencrypted">Terminating SSL/TLS at the Load Balancer Only</a>
+  ssl_gorouter_link: <a href="https://docs.pivotal.io/application-service/operating/security_config.html#gorouter_term">Terminating SSL/TLS at the Gorouter only</a>
+  ssl_lb_gorouter_link: <a href="https://docs.pivotal.io/application-service/operating/security_config.html#gorouter_lb">Terminating SSL/TLS at the Load Balancer and the Gorouter</a>
+  ssl_lb_link: <a href="https://docs.pivotal.io/application-service/operating/security_config.html#unencrypted">Terminating SSL/TLS at the Load Balancer Only</a>
   ssl_haproxy: <tr><th>Optionally, if you are deploying HAProxy, and</th><th>Then in addition, terminate SSL/TLS at<span>:</span></th><th>Related topic and configuration procedure</th></tr><tr><td><ul><li>You would like to secure traffic to the HAProxy.</li></ul></td><td><strong>HAProxy</strong></td><td><a href="../opsguide/ssl-term-haproxy.html#haproxy">Terminating SSL/TLS at HAProxy</a></td></tr>
   ssl_haproxy_2: <p class="note"><strong>Note</strong><span>:</span> If you are using HAProxy in a TAS for VMs deployment, you can choose to terminate SSL/TLS at HAProxy in addition to any of the SSL/TLS termination options above. For more information, see <a href="ssl-term-haproxy.html">Configuring SSL/TLS Termination at HAProxy</a>.</p>
   zipkin_enable: "/pcf/core/2-11/zipkin-pcf-config"
@@ -350,7 +350,7 @@ template_variables:
   route_services_appsman2: <p class="note"><strong>Note</strong>&#58; The procedures in this topic use the Cloud Foundry Command Line Interface (cf CLI). You can also manage route services using Apps Manager. For more information, see the <a href="../../console/manage-apps.html#manage-route-services">Manage Route Services</a> section of the <em>Managing Apps and Service Instances Using Apps Manager</em> topic.</p>
   user_provided_apps_man: <p class="note"><strong>Note</strong>&#58 The procedures in this topic use the Cloud Foundry Command Line Interface (cf CLI). You can also create user-provided service instances in Apps Manager from the Marketplace. To update existing user-provided service instances, navigate to the service instance page and select the <strong>Configuration</strong> tab.</p>
   aws_lb_cipher_suites: "https://docs.pivotal.io/platform/2-11/customizing/pcf_aws_lb_cipher_suites"
-  ssl_cert_ert: <p class="note"><strong>Note</strong>&#58; Alternately, you can use the TAS for VMs Ops Manager interface to generate a certificate for you. Certificates generated in TAS for VMs are signed by the Ops Manager Certificate Authority. They are not technically self-signed, but they are sometimes referred to as "self-signed certificates" in the Ops Manager UI and throughout this documentation. For more information, see the <a href="../opsguide/security_config.html#ert_certgen">Generating a RSA Certificate in TAS for VMs</a> section in the <em>Providing a Certificate for Your TLS Termination Point</em> topic.</p>
+  ssl_cert_ert: <p class="note"><strong>Note</strong>&#58; Alternately, you can use the TAS for VMs Ops Manager interface to generate a certificate for you. Certificates generated in TAS for VMs are signed by the Ops Manager Certificate Authority. They are not technically self-signed, but they are sometimes referred to as "self-signed certificates" in the Ops Manager UI and throughout this documentation. For more information, see the <a href="https://docs.pivotal.io/application-service/operating/security_config.html#ert_certgen">Generating a RSA Certificate in TAS for VMs</a> section in the <em>Providing a Certificate for Your TLS Termination Point</em> topic.</p>
   ssl_single_sans_wildcard: <li>You can use a single certificate with SANs in your deployment for your wildcard domains, and</li>
   ssl_gorouter_sans: <li>You can use a single SAN certificate on the Gorouter, and</li>
   ssl_single_san_restriction: <li>You cannot use a single SAN certificate for all system and app domains for your deployment, or</li>
