@@ -19,11 +19,13 @@ sections:
   directory: credhub
   subnav_template: credhub.erb
   product_info:
+
     use_local_header: true
     skip_versioning: true
     changelog_href: https://docs.pivotal.io/ops-manager/2-10/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: CredHub
+    local_product_version: '2.10'
     search_placeholder: Search CredHub
     url_prefix: credhub
     local_header_links:
