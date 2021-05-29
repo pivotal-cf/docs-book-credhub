@@ -302,7 +302,6 @@ template_variables:
   syslog_forwarding_ref: Syslog forwarding. See <a href="https://docs.pivotal.io/platform/devguide/services/log-management.html">Streaming App Logs to Log Management Services</a>.
   tas_networking: To configure the names of the cookies, see [Configure Networking](../operating/configure-pas.html#networking) in _Configuring TAS for VMs_.
   tcp_iaas: To configure your IP addresses for your TAS for VMs deployment, see the procedure for enabling TCP routing in the [Configure Networking](https://docs.pivotal.io/platform/2-11/customizing/configure-pas.html#networking) section of the _Configuring TAS for VMs_ topic.
-  tcp_mod_port_change: "../adminguide/tcp_empty_file"
   tcp_port: "/pcf/core/2-11/tcp_port_review"
   tiledev_link: <p class="note"><strong>Note</strong><span>:</span> To develop service brokers and service tiles for Ops Manager, see the <a href="https://docs.pivotal.io/tiledev">Ops Manager Tile Developer Guide</a>.</p>
   uaa: <a href="../adminguide/notifications.html">UAA</a>
