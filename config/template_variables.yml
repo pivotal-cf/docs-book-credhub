@@ -15,7 +15,7 @@ template_variables:
   global_header_product_link_text: Downloads
   current_major_version: '2.10'
 
-  gtm_account_id: GTM-MW4LZHR
+  gtm_account_id: GTM-MM86KCJ
 
 # Tanzu product variables - v2.9 and later
   platform_name: Ops Manager
