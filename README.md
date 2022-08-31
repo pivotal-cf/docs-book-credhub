@@ -23,12 +23,12 @@ GitHub. To locate the source file for a topic, navigate to the topic on the Cred
 
 
 **master**: The `master` branch is used to publish the live version of the site for all versions of CredHub. Create
-pull requests on `master` to contribute or correct technical inaccuracies in 
+pull requests on `master` to contribute or correct technical inaccuracies in
 documentation.
 
 ## How To Use Bookbinder To View Your Documentation
 
-[Bookbinder](https://github.com/pivotal-cf/bookbinder/blob/master/README.md) is a command-line
+[Bookbinder](https://github.com/pivotal-cf/bookbinder/blob/main/README.md) is a command-line
 utility for stitching Markdown documents into a hostable web app. The documentation team uses
 Bookbinder to publish our documentation sites, but you can also use Bookbinder to view a live
 version of your documentation on your local machine.

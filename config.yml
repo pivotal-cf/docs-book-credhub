@@ -1,7 +1,7 @@
 ---
 book_repo: pivotal-cf/docs-book-credhub
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: master
+layout_repo_ref: main
 feedback_enabled: true
 
 broken_link_exclusions: iefix|arrowhead
@@ -37,6 +37,6 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-partials
-    ref: 'master'
+    ref: 'main'
   directory: pcf
   no_docs: true
