@@ -37,6 +37,6 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-partials
-    ref: 'main'
+    ref: 'tas-3-0'
   directory: pcf
   no_docs: true
