@@ -4,7 +4,7 @@ title: Cloud Foundry Documentation Standards
 
 This guide presents documentation standards for the Cloud Foundry (CF) Documentation team. In general, use your best judgement when applying these rules, or when resolving situations not covered here.
 
-If you find that you have standards questions that aren't yet addressed, add a chore to the CF Documentation private backlog to request an update, or submit a pull request to update the guide yourself. Pull requests give the team a chance to see and discuss changes. 
+If you find that you have standards questions that aren't yet addressed, add a chore to the CF Documentation private backlog to request an update, or submit a pull request to update the guide yourself.
 
 ##<a id='basics'>Style Basics</a>##
 
@@ -44,7 +44,7 @@ Strive to write clearly and concisely.
 Cloud Foundry exists in three contexts:
 
 - **OSS**: Cloud Foundry and BOSH are open source.
-- **PCF**: The commercial packaged offering is called Pivotal Cloud Foundry.
+- **PCF**: The commercial packaged offering is called Pivotal Cloud Foundry&reg;.
 - **PWS**: Pivotal Web Services is our commercial hosted offering.
 
 Much of our documentation needs to work for multiple contexts.
@@ -65,7 +65,7 @@ Something that makes complete sense in one context (e.g. "target api.run.pivotal
 
 	<ul>
 	  <li><strong>OSS</strong>: Cloud Foundry and BOSH are open source.</li>
-	  <li><strong>PCF</strong>: The commercial packaged offering is called Pivotal Cloud Foundry. </li>
+	  <li><strong>PCF</strong>: The commercial packaged offering is called Pivotal Cloud Foundry&reg;. </li>
 	</ul>
   </td>
 </tr>
@@ -84,7 +84,7 @@ Something that makes complete sense in one context (e.g. "target api.run.pivotal
 </tr>
 <tr>
   <td><strong>></strong></td><td>This symbol leads you through nested menu items or dialog box options to a final action. For example:</br>
-	</br>Refer to <strong>Pivotal Application Service > Credentials</strong> for the UAA admin name and password.</td>
+	</br>Refer to <strong>Elastic Runtime>Credentials</strong> for the UAA admin name and password.</td>
 </tr>
 <tr>
   <td><code>code</code></td><td>Use code formatting for sections of code, programming examples, filenames, and path names. Also use code formatting to indicate text that the user enters. </td>
@@ -202,13 +202,13 @@ Use _choose_ when instructing the reader to make a single choice from among mult
 
 Use _select_ when referring to a tab in a tabbed dialog. In general, also _select_ rather than _click_ when the UI element in question remains displayed after the user clicks it. For example:
 
-Select **Assign Networks**. Pivotal Application Service (PAS) runs on the network you select. _[**Assign Networks** highlights and continues to display on the left, along with the names of the other configuration pages.]_
+Select **Assign Networks**. Elastic Runtime runs on the network you select. _[**Assign Networks** highlights and continues to display on the left, along with the names of the other configuration pages.]_
 
 ###Titles###
 
 Use gerunds in titles where possible. For example:
 
-_Getting Started with Pivotal Cloud Foundry_
+_Getting Started with Pivotal Cloud Foundry&reg;_
 
 ###Topics vs Pages###
 
@@ -302,21 +302,21 @@ When referring readers to another topic or section, link text that describes wha
 
 On first reference in a topic, link the product name to the relevant product page. Including these links improves SEO.
 
-###Cloud Foundry Command Line Interface Tool###
+###cf Command Line Interface Tool###
 
-Refers to the downloadable command line tool. On first reference in a topic, use the full name, _Cloud Foundry Command Line Interface_ tool. On subsequent references, use _cf CLI_.
+Refers to the downloadable command line tool. On first reference in a topic, use the full name, Cloud Foundry Command Line Interface tool. On subsequent references, use _cf CLI_.
 
 ###Developer Console (OBSOLETE)###
 
 See _Apps Manager_.
 
-###Pivotal Cloud Foundry Apps Manager###
+###Pivotal Cloud Foundry&reg; Apps Manager###
 
 Refers to the web-based console application for managing users, organizations, spaces, and applications. This term replaces the obsolete _Dev Console_. Use the full name on first reference. After the first reference in a topic, use the short version _Apps Manager_. Also use the short version for titles and headings.
 
-###Pivotal Cloud Foundry PAS###
+###Pivotal Cloud Foundry&reg; Elastic Runtime###
 
-The on-premises, commercial, enterprise distribution of Cloud Foundry. On first reference, use full name. On subsequent references, use _PAS_.
+The on-premises, commercial, enterprise distribution of Cloud Foundry. On first reference, use full name. On subsequent references, use _Elastic Runtime_.
 
 ###Installation Dashboard###
 
@@ -324,25 +324,25 @@ The _Installation Dashboard_ is a UI element in Ops Manager. It displays product
 
 ###Pivotal CF (OBSOLETE)###
 
-Replace with _Pivotal Cloud Foundry_.
+Replace with _Pivotal Cloud Foundry&reg;_.
 
-###Pivotal Cloud Foundry###
+###Pivotal Cloud Foundry&reg;###
 
-Encompasses Ops Manager and PAS. You should spell and include a link to the product page [https://network.pivotal.io/products/pivotal-cf](https://network.pivotal.io/products/pivotal-cf).
+Encompasses Ops Manager and Elastic Runtime. You should spell out and include a "&reg;" the first time you use this in topic, and, in most cases, you should include a link to the product page [https://network.pivotal.io/products/pivotal-cf](https://network.pivotal.io/products/pivotal-cf).
 
-Example: [Pivotal Cloud Foundry](https://network.pivotal.io/products/pivotal-cf)
+Example: [Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/pivotal-cf)
 
 You can use the "PCF" acronym if you previously introduced it in a topic.
 
-Example: [Pivotal Cloud Foundry](https://network.pivotal.io/products/pivotal-cf) (PCF)
+Example: [Pivotal Cloud Foundry&reg;](https://network.pivotal.io/products/pivotal-cf) (PCF)
 
 ###Pivotal One (OBSOLETE)###
 
 This term is deprecated. Do not use it.
 
-###Pivotal Cloud Foundry Operations Manager###
+###Pivotal Cloud Foundry&reg; Operations Manager###
 
-_Pivotal Cloud Foundry Operations Manager_ is a web application that you use to deploy and manage a Pivotal Cloud Foundry PaaS. Use the full name on first reference. After the first reference in a topic, use the short version _Ops Manager_. Also use the short version for titles and headings.
+_Pivotal Cloud Foundry&reg; Operations Manager_ is a web application that you use to deploy and manage a Pivotal Cloud Foundry&reg; PaaS. Use the full name on first reference. After the first reference in a topic, use the short version _Ops Manager_. Also use the short version for titles and headings.
 
 ###Product Tiles###
 
