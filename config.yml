@@ -1,7 +1,8 @@
 ---
-book_repo: pivotal-cf/docs-book-credhub
+book_repo: pivotal-cf/docs-book-nist
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: main
+layout_repo_ref: 'master'
+
 feedback_enabled: true
 
 broken_link_exclusions: iefix|arrowhead
@@ -12,31 +13,11 @@ public_host: docs.pivotal.io
 elastic_search: true
 
 sections:
-
 - repository:
-    name: cloudfoundry/docs-credhub
-    ref: 'master'
-  directory: credhub
-  subnav_template: credhub.erb
+    name: pivotal-cf/docs-nist
+  directory: nist
+  subnav_template: nist-subnav.erb
   product_info:
-
-    use_local_header: true
-    skip_versioning: true
-    changelog_href: https://docs.pivotal.io/ops-manager/3-0/release-notes.html
-    local_header_img: /images/cloud_rings.png
-    local_header_title: CredHub
-    local_product_version: '3.0'
-    search_placeholder: Search CredHub
-    url_prefix: credhub
-    local_header_links:
-      - <a href="https://network.pivotal.io/products/credhub-service-broker/">Download from Tanzu Network</a>
-      - <a href="https://community.pivotal.io/s/topic/0TO0P000000IKhwWAG/welcome">Knowledge Base</a>
-    local_header_version_list: []
-
-# cross-product resources
-
-- repository:
-    name: pivotal-cf/docs-partials
-    ref: 'tas-3-0'
-  directory: pcf
-  no_docs: true
+    use_local_header: false
+    search_placeholder: Search NIST Controls and PCF
+    local_header_title: NIST Controls
