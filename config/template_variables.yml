@@ -320,6 +320,7 @@ template_variables:
   ssl_haproxy_2: <p class="note"><strong>Note</strong><span>:</span> If you are using HAProxy in a TAS for VMs deployment, you can choose to terminate SSL/TLS at HAProxy in addition to any of the SSL/TLS termination options above. For more information, see <a href="ssl-term-haproxy.html">Configuring SSL/TLS Termination at HAProxy</a>.</p>
   zipkin_enable: "/pcf/core/zipkin-pcf-config"
   zipkin_enable_link: <p>When Zipkin tracing is enabled in TAS for VMs, the Gorouter examines the HTTP request headers and performs the following:</p>
+  w3c_enable_link: <p>When W3C tracing is enabled in TAS for VMs, the Gorouter examines the HTTP request headers and performs the following:</p>
   starting_container_count_maximum: For information about how to configure this setting, see the [Set a Maximum Number of Starting Containers](../upgrading/configuring.html#container-starts) section of the _Configuring TAS for VMs for Upgrades_ topic.
   garden_runc: <p class="note"><strong>Note</strong><span>:</span> PAS v1.8.8 and later use Garden-runC instead of Garden-Linux.</p>
   autoscaler_bullet: <li><a href="../appsman-services/autoscaler/using-autoscaler.html" class="subnav">Scaling an App Using App Autoscaler</a></li>
@@ -397,6 +398,7 @@ template_variables:
   scaling_loggregator_link: For more information, see the [Scaling Loggregator](../../loggregator/log-ops-guide.html#scaling section of the _Loggregator Guide for TAS for VMs Operators_ topic.
   using_docker_link: For an explanation of how Docker works in TAS for VMs, see [Using Docker in TAS for VMs](../../adminguide/docker.html).
   zipkin_tracing_link: For more information about Zipkin tracing, see [Enabling Zipkin Tracing](../adminguide/zipkin_tracing.html).
+  w3c_tracing_link: For more information about W3C tracing, see [Enabling W3C Tracing](../adminguide/w3c_tracing.html).
   app_graceful_shutdown_config: If your apps require a longer period of time to finish in-flight jobs and gracefully shut down, you can increase the graceful shutdown period. For more information, see the [Configure Advanced Features](https://docs.pivotal.io/application-service/2-11/operating/configure-pas.html#advanced) section of the _Configuring TAS for VMs_ topic.
   app_log_limit_config: For more information, see <a href="https://docs.pivotal.io/platform/2-10/release-notes/runtime-rn.html#app-log-limit">Configure App Log Rate Limit (Beta)</a> in the _TAS for VMs v2.10 Release Notes_.
   isolation_segments_smoke_tests: <p class='note'><strong>Note:</strong> If you run smoke tests as a post-deploy errand in the Isolation Segment tile, the smoke tests check if your isolation segment is registered in the CCDB. If the isolation segment is not registered, the smoke tests register it in the CCDB. This eliminates the need to manually register an isolation segment with <code>cf create-isolation-segment</code>. For more information, see <a href="../operating/installing-pcf-is.html#smoke-tests">Smoke Tests</a> in <em>Installing Isolation Segment</em>.</p>
